@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fun Fact</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >8 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="welcome_description">welcome image view</string>
+    <string name="action_noAccount">Need an account?</string>
+    <string name="java_fact">The original name for Java was Oak. It was eventually changed to Java by Sun\'s marketing department when Sun lawyers found that there was already a computer company registered as Oak. But a legend has it that Gosling and his gang of programmers went out to the local cafe to discuss names and ended up naming it Java</string>
+    <string name="kotlin_fact">The name comes from Kotlin Island, near St. Petersburg. Andrey Breslav mentioned that the team decided to name it after an island, just like Java was named after the Indonesian island of Java (though the programming language Java was perhaps named after the coffee).</string>
+    <string name="python_fact">Why is it called Python? ¶ When he began implementing Python, Guido van Rossum was also reading the published scripts from “Monty Python\'s Flying Circus”, a BBC comedy series from the 1970s. Van Rossum thought he needed a name that was short, unique, and slightly mysterious, so he decided to call the language Python.</string>
+    <string name="js_fact">The name JavaScript came from Netscape\'s support of Java applets within its browser. Many say it was also a marketing tactic to divert some attention from Java, which was the most buzzed-about language at the time. To run Java programs, the code must be first compiled into an executable form.</string>
+    <string name="php_fact">This entirely new language was released under a new name, that removed the implication of limited personal use that the PHP/FI 2.0 name held. It was renamed simply \'PHP\', with the meaning becoming a recursive acronym - PHP: Hypertext Preprocessor.</string>
+</resources>

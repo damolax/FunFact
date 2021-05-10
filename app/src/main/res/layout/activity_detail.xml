@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="TODO"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/java_logo" />
+
+            <TextView
+                android:id="@+id/factTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:lineSpacingMultiplier="1.15"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/factsColor"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="@+id/logo_image"
+                app:layout_constraintStart_toStartOf="@id/logo_image"
+                app:layout_constraintTop_toBottomOf="@id/logo_image"
+                tools:text="@string/java_fact" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>
